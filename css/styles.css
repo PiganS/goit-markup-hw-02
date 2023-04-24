@@ -6,7 +6,7 @@
   --background-footer-color: #2e2f42;
 
   /* link and buttons color */
-
+  --logo-studio-color: #2e2f42;
   --linkhover-color: #404bbf;
   --button-normal-color: #4d5ae5;
   --button-hover-color: #404bbf;
@@ -89,7 +89,7 @@ body {
 }
 .logo-studio {
   font-family: 'Raleway', sans-serif;
-  color: #f4f4fd;
+  color: var(--logo-studio-color);
 }
 
 /* ============navigation =============*/
